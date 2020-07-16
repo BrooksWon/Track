@@ -38,7 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0596AE0D71408ED3930DFFB8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		12AAB8E0BE2C7B8B4A1450A7 /* Pods-Track_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Track_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Track_Tests/Pods-Track_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		20A96816A04F0BC2CE63B0BB /* Pods_Track_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Track_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4883242EEC79FCA9F2913FBC /* Pods_Track_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Track_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -196,7 +195,6 @@
 			children = (
 				ED857427E8BE84F0BF4DE96F /* Track.podspec */,
 				BC2EDA4F21272A10BC5D3F4B /* README.md */,
-				0596AE0D71408ED3930DFFB8 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
