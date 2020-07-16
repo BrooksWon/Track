@@ -1,0 +1,6 @@
+framework module Track {
+  umbrella header "Track-umbrella.h"
+
+  export *
+  module * { export * }
+}

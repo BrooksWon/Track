@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Masonry (1.1.0)
+  - Track (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Masonry
+  - Track (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - Masonry
+
+EXTERNAL SOURCES:
+  Track:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Track: 855d11101d9e1d6f3b67ce8836a934c40bb7cfd9
+
+PODFILE CHECKSUM: 2609e5acbed0ff75f84857e1e21bc108617e305e
+
+COCOAPODS: 1.9.1
