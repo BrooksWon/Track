@@ -8,6 +8,7 @@
 
 #import "BTAppDelegate.h"
 #import "BTViewController.h"
+#import "BTLogStorage.h"
 
 @implementation BTAppDelegate
 
@@ -20,15 +21,17 @@
     self.window.rootViewController = viewController;
     [self.window makeKeyAndVisible];
     
-    [self performSelector:@selector(testHello) withObject:nil afterDelay:0 inModes:@[NSDefaultRunLoopMode]];
-    [self performSelector:@selector(testHello) withObject:nil afterDelay:0 inModes:@[NSDefaultRunLoopMode]];
-
-    [self performSelector:@selector(testHello) withObject:nil afterDelay:0 inModes:@[NSDefaultRunLoopMode]];
-
-    [self performSelector:@selector(testHello) withObject:nil afterDelay:0 inModes:@[NSDefaultRunLoopMode]];
-
-    [self performSelector:@selector(testHello) withObject:nil afterDelay:0 inModes:@[NSDefaultRunLoopMode]];
-
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        [[BTLogStorage shraed] popLog:^BOOL(NSData * _Nonnull log) {
+//            
+//            //网络上报
+//            //        BOOL report = [NetEngin post:data];
+//            NSString *result = [[NSString alloc] initWithData:log encoding:NSUTF8StringEncoding];
+//            NSLog(@"log: %@", result);
+//            return YES;
+//        }];
+//    });
+    
     
     
     return YES;

@@ -36,7 +36,6 @@
         make.height.mas_equalTo(200);
     }];
     [shieldView bt_setTrackTag:@"shieldView" position:1212];
-    [shieldView bt_setTrackTag:@"shieldView" position:1212];
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"test" style:UIBarButtonItemStylePlain target:self action:@selector(pushVC)];
 }
@@ -75,7 +74,7 @@
 - (void)collectionView:(UICollectionView *)collectionView willDisplayCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath
 {
 //    [cell bt_setTrackTag:@"collectionView" position:indexPath.row];
-    [cell bt_setTrackTag:@"collectionView" position:indexPath.row trackData:nil shieldView:self.shieldV];
+    [cell bt_setTrackTag:@"collectionView" position:indexPath.row trackData:@{@"cellForRow":@(indexPath.row)} shieldView:self.shieldV];
 
 }
 

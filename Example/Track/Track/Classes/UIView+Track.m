@@ -8,6 +8,7 @@
 #import "UIView+Track.h"
 #import "ViewTrackModel.h"
 #import <objc/runtime.h>
+#import "BTLogStorage.h"
 
 @interface ShieldViewMap : NSObject
 
@@ -327,6 +328,8 @@
 
 - (void)bt_viewStatistical {
     NSLog(@"hlj_trackTag:%@,position:%zd",self.bt_trackModel.tag,self.bt_trackModel.position);
+#warning 本地存储
+    [[BTLogStorage shraed] pushLog:self.bt_trackModel.description];
 }
 
 - (void)setBt_viewVisible:(BOOL)bt_viewVisible {
